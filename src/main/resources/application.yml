@@ -1,11 +1,11 @@
 spring:
     application:
-        name: ace-config
+        name: sino-config
     cloud:
         config:
             server:
                 git:
-                    uri: https://git.oschina.net/geek_qi/AG-Config.git
+                    uri: https://github.com/carvechris/sino-config.git
 
 server:
     port: 8750 #启动端口
